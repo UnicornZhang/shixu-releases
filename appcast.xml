@@ -4,11 +4,13 @@
         <title>拾序</title>
         <item>
             <title>0.1.0</title>
-            <pubDate>Thu, 29 Oct 2026 21:18:53 +0800</pubDate>
-            <sparkle:version>1</sparkle:version>
+            <pubDate>Thu, 29 Oct 2026 21:56:31 +0800</pubDate>
+            <sparkle:version>0.1.0</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.0
+
+[下载 DMG 安装包（Apple Silicon）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.dmg)，打开后将「拾序.app」拖到「Applications」。ZIP 保留用于直接解压与应用内更新。
 
 - 查看本地 Git 工作区、分支状态和文件变更。
 - 关联 Redmine 工单，登记工时，通过 GitLab 创建 MR。
@@ -16,7 +18,7 @@
 
 适用于 Apple Silicon、macOS 27.0 及以上。应用有开发者签名，未进行 Apple 公证。
 ]]></description>
-            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.zip" length="2989274" type="application/octet-stream" sparkle:edSignature="cdA3kkUSOEeDyWIWSTXT5MU2eDq16Wg7jcUgZ9wkoy7UhUbZ1wwMe/Je6Z46ZH2n5TE7DiOJee95CVoGdcvABw=="/>
+            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.zip" length="2989725" type="application/octet-stream" sparkle:edSignature="+2L32o17JiFKmjPbCiwrYzEcecgRD9Z4xIQZ1WHzlmm4S3F9uS48RA28VAun7s7A+60bM0kvSxsxVkA/oGj+Bw=="/>
         </item>
     </channel>
 </rss>
