@@ -4,7 +4,7 @@
 
 拾序是一款原生 macOS 开发工具，面向同时维护多个 Git 仓库、使用 GitLab 和 Redmine 的开发者。查看当前分支与代码变更、找到对应工单、登记工时、创建 Merge Request，都可以从同一个窗口完成，减少在编辑器、终端和网页之间来回查找。
 
-![拾序工作台：管理本地 Git 仓库、分支与工作区状态](docs/images/workspace.png)
+![拾序工作台：管理本地 Git 仓库、分支与工作区状态](docs/images/workspace.jpg)
 
 *截图使用演示工作区，不含真实项目与服务凭据。*
 
@@ -25,7 +25,7 @@
 
 工作区存在 `.env.local` 时，可直接编辑已有参数并保存；文件不存在时隐藏入口。保留原有注释与换行，外部修改冲突时阻止覆盖，敏感参数默认隐藏。保存后重启开发服务生效。
 
-![启动参数卡片：按字段编辑并保存 .env.local](docs/images/environment.png)
+![启动参数卡片：按字段编辑并保存 .env.local](docs/images/environment.jpg)
 
 ## 下载与安装
 
