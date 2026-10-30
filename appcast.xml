@@ -4,7 +4,7 @@
         <title>拾序</title>
         <item>
             <title>0.1.2</title>
-            <pubDate>Fri, 30 Oct 2026 13:53:37 +0800</pubDate>
+            <pubDate>Fri, 30 Oct 2026 09:13:23 +0000</pubDate>
             <sparkle:version>0.1.2</sparkle:version>
             <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -13,7 +13,7 @@
 
 - 最低系统版本调整为 macOS 14.0。
 ]]></description>
-            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.2/Shixu-0.1.2-arm64.zip" length="3059821" type="application/octet-stream" sparkle:edSignature="KQJ067aygdBu6R1/cn5i/xyIAihsFFF/08q5PqqqvxgscM6axNvvfxOQI/ERV9wVvYnvmehuJWwFXdUeLfb3Dg=="/>
+            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.2/Shixu-0.1.2-arm64.zip" length="5620317" type="application/octet-stream" sparkle:edSignature="ALntbAQFiZ/pvlLjWXKDaPFKRddRucGkMuQzKMTEiw1jcgm69APalKOYzGjpxhrp6z9oayaTMokLpzjau1wiAw=="/>
         </item>
     </channel>
 </rss>
