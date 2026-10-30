@@ -3,21 +3,17 @@
     <channel>
         <title>拾序</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Fri, 30 Oct 2026 10:02:53 +0800</pubDate>
-            <sparkle:version>0.1.1</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.1
+            <title>0.1.2</title>
+            <pubDate>Fri, 30 Oct 2026 13:53:37 +0800</pubDate>
+            <sparkle:version>0.1.2</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.2
 
-- 新增工作区启动参数编辑：存在 `.env.local` 时显示参数卡片，可直接修改已有字段；文件不存在时隐藏。
-- 支持保存修改和重新读取，敏感参数默认隐藏。
-- 保存时保留原有注释、空行和换行格式；检测到文件被外部修改时阻止覆盖。
-- 未保存的参数修改纳入应用更新重启前的草稿检查。
-
-参数保存后，重启开发服务生效。
+- 最低系统版本调整为 macOS 14.0。
 ]]></description>
-            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.zip" length="3064897" type="application/octet-stream" sparkle:edSignature="IF034U4ftVwXkk7D0kL1G+tYi8G8w+XGonQn22K5X1/fju492gGo7ou2VjlFq8Xp8/lW6hGl9Uc4mWIVDdCOCg=="/>
+            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.2/Shixu-0.1.2-arm64.zip" length="3059821" type="application/octet-stream" sparkle:edSignature="KQJ067aygdBu6R1/cn5i/xyIAihsFFF/08q5PqqqvxgscM6axNvvfxOQI/ERV9wVvYnvmehuJWwFXdUeLfb3Dg=="/>
         </item>
     </channel>
 </rss>
