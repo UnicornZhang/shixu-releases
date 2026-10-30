@@ -29,18 +29,18 @@
 
 ## 下载与安装
 
-**[下载拾序 0.1.1 · Apple Silicon（DMG）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.dmg)**
+**[下载拾序 0.1.2 · Apple Silicon（DMG）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.2/Shixu-0.1.2-arm64.dmg)**
 
 1. 打开 DMG，将「拾序.app」拖到「Applications」。
 2. 从应用程序目录启动拾序，点击左侧「+」添加本地 Git 仓库。
 3. 如需工单、工时或 MR 功能，在「设置 → 管理连接」中分别配置 Redmine 和 GitLab。
 
-也可下载 [ZIP 便携包](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.zip)，解压后将应用放入应用程序目录。全部版本与校验文件见 [Releases](https://github.com/UnicornZhang/shixu-releases/releases)。
+也可下载 [ZIP 便携包](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.2/Shixu-0.1.2-arm64.zip)，解压后将应用放入应用程序目录。全部版本与校验文件见 [Releases](https://github.com/UnicornZhang/shixu-releases/releases)。
 
 ## 当前版本的系统要求
 
 - Apple Silicon Mac（M 系列芯片）；当前版本不支持 Intel Mac。
-- macOS 27.0 或更新版本。更低系统版本的兼容性正在评估，尚未发布兼容包。
+- macOS 14.0 或更新版本。尚未在 macOS 14 上运行验收。
 - 使用本地 Git 功能需安装 Git；同步远端分支沿用本机 Git 的认证配置。
 - 工单、工时与 MR 功能需要对应服务账号及操作权限。
 
