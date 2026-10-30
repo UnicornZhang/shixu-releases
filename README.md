@@ -11,6 +11,7 @@
 - **查找与切换分支**：搜索本地、远程分支；切换前检查未提交修改。
 - **关联 Redmine 工单**：从分支末尾的工单编号关联详情，一键打开工单并登记日期、工时、活动和备注。
 - **创建 GitLab MR**：填写标题、描述、目标分支与处理人；创建前检查远端分支、代码差异、重复 MR 和合并冲突。
+- **调整启动参数**：工作区存在 `.env.local` 时，直接编辑已有参数并保存；文件不存在时隐藏入口。
 - **衔接日常工具**：复制仓库路径，使用 Finder 或已安装的编辑器打开目录。
 - **适应你的桌面**：支持浅色、深色和跟随系统，可独立控制菜单栏与 Dock 图标，并在应用内检查更新。
 
@@ -18,13 +19,13 @@
 
 ## 下载与安装
 
-**[下载拾序 0.1.0 · Apple Silicon（DMG）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.dmg)**
+**[下载拾序 0.1.1 · Apple Silicon（DMG）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.dmg)**
 
 1. 打开 DMG，将「拾序.app」拖到「Applications」。
 2. 从应用程序目录启动拾序，点击左侧「+」添加本地 Git 仓库。
 3. 如需工单、工时或 MR 功能，在「设置 → 管理连接」中分别配置 Redmine 和 GitLab。
 
-也可下载 [ZIP 便携包](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.zip)，解压后将应用放入应用程序目录。全部版本与校验文件见 [Releases](https://github.com/UnicornZhang/shixu-releases/releases)。
+也可下载 [ZIP 便携包](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.zip)，解压后将应用放入应用程序目录。全部版本与校验文件见 [Releases](https://github.com/UnicornZhang/shixu-releases/releases)。
 
 ## 当前版本的系统要求
 
