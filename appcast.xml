@@ -3,22 +3,25 @@
     <channel>
         <title>拾序</title>
         <item>
-            <title>0.1.0</title>
-            <pubDate>Thu, 29 Oct 2026 21:56:31 +0800</pubDate>
-            <sparkle:version>0.1.0</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>0.1.1</title>
+            <pubDate>Fri, 30 Oct 2026 10:02:53 +0800</pubDate>
+            <sparkle:version>0.1.1</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.0
+            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.1
 
-[下载 DMG 安装包（Apple Silicon）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.dmg)，打开后将「拾序.app」拖到「Applications」。ZIP 保留用于直接解压与应用内更新。
+[下载 DMG 安装包（Apple Silicon）](https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.dmg)，打开后将「拾序.app」拖到「Applications」。已安装用户可通过应用内检查更新升级。
 
-- 查看本地 Git 工作区、分支状态和文件变更。
-- 关联 Redmine 工单，登记工时，通过 GitLab 创建 MR。
-- 支持应用内检查更新；安装新版本前检查正在进行的操作和会话草稿。
+- 新增工作区启动参数编辑：根目录存在 `.env.local` 时，在本地目录下显示已有字段；文件不存在时隐藏卡片，不自动创建文件。
+- 修改后点击“保存”写回文件，保留注释、空行、引号及换行格式；“重新读取”可丢弃草稿并读取当前文件。
+- 保存前检查外部修改，发生冲突时阻止覆盖；敏感字段默认隐藏，未保存修改参与更新重启前的草稿检查。
+- 参数输入沿用应用统一的聚焦描边、按钮状态和就近反馈。
+
+保存参数后需重启开发服务生效。当前支持 64 KB 以内的 UTF-8 单行赋值文件，多行值和符号链接请使用编辑器处理；离开概览或切换工作区前请保存。
 
 适用于 Apple Silicon、macOS 27.0 及以上。应用有开发者签名，未进行 Apple 公证。
 ]]></description>
-            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.0/Shixu-0.1.0-arm64.zip" length="2989725" type="application/octet-stream" sparkle:edSignature="+2L32o17JiFKmjPbCiwrYzEcecgRD9Z4xIQZ1WHzlmm4S3F9uS48RA28VAun7s7A+60bM0kvSxsxVkA/oGj+Bw=="/>
+            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.1/Shixu-0.1.1-arm64.zip" length="3064897" type="application/octet-stream" sparkle:edSignature="IF034U4ftVwXkk7D0kL1G+tYi8G8w+XGonQn22K5X1/fju492gGo7ou2VjlFq8Xp8/lW6hGl9Uc4mWIVDdCOCg=="/>
         </item>
     </channel>
 </rss>
