@@ -3,13 +3,13 @@
     <channel>
         <title>拾序</title>
         <item>
-            <title>0.1.3</title>
-            <pubDate>Mon, 02 Nov 2026 17:59:42 +0800</pubDate>
-            <sparkle:version>0.1.3</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <title>0.1.4</title>
+            <pubDate>Sat, 07 Nov 2026 22:46:04 +0800</pubDate>
+            <sparkle:version>0.1.4</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.3
+            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.4
 
 - 分支列表支持直接勾选多个本地分支，统一确认删除，并可逐项选择是否删除对应远程分支。
 - 本地分支清理默认使用 master；本地缺少时从同步后的 origin/master 创建并建立跟踪。
@@ -18,8 +18,11 @@
 - 文件变更页移除同步、提交与Worktree切换入口，保留单项／全部暂存、取消暂存和回退修改，状态使用轻量图标。
 - 改进 Worktree 标签、加载状态、删除确认和服务连接状态的显示。
 - 统一拾序应用身份与配置目录，改进窗口交互及更新重启保护。
+
+- 侧栏底部统一为无分隔线的单行工具栏，服务状态靠左、设置入口靠右。
+- 关闭窗口后驻留菜单栏，可恢复原工作区；设置支持 Dock 与菜单栏图标显示偏好。
 ]]></description>
-            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.3/Shixu-0.1.3-arm64.zip" length="6191518" type="application/octet-stream" sparkle:edSignature="N4iBCLHtPxOckGAWDPZzgWHsxb09fAGE3erHzrL6jSeOH8sObEYHmsCasI+khRrb4Jk9t9uN+NHEI7hDW5/oCw=="/>
+            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.4/Shixu-0.1.4-arm64.zip" length="6144627" type="application/octet-stream" sparkle:edSignature="MQFVKOwb1/eb/2ktfGO/D5D8qVeyXHj/5YlErb+sB2EvhK22zm8BWsv9jlC9iUUUVPlgo2SINMKG4ICuiwHSAg=="/>
         </item>
     </channel>
 </rss>
