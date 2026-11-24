@@ -3,26 +3,23 @@
     <channel>
         <title>拾序</title>
         <item>
-            <title>0.1.4</title>
-            <pubDate>Sat, 07 Nov 2026 22:46:04 +0800</pubDate>
-            <sparkle:version>0.1.4</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <title>0.1.5</title>
+            <pubDate>Tue, 24 Nov 2026 17:32:34 +0800</pubDate>
+            <sparkle:version>0.1.5</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.4
+            <description sparkle:format="markdown"><![CDATA[# 拾序 0.1.5
 
-- 分支列表支持直接勾选多个本地分支，统一确认删除，并可逐项选择是否删除对应远程分支。
-- 本地分支清理默认使用 master；本地缺少时从同步后的 origin/master 创建并建立跟踪。
-- Worktree 删除可选同时删除本地或远程分支，修复已合并主分支仍被误拦截的问题，并明确显示不可删除的原因。
-- 分支选择窗口立即显示已有分支，手动同步展示当前阶段；当前分支同步减少无关获取和没有提交时的空推送。
-- 文件变更页移除同步、提交与Worktree切换入口，保留单项／全部暂存、取消暂存和回退修改，状态使用轻量图标。
-- 改进 Worktree 标签、加载状态、删除确认和服务连接状态的显示。
-- 统一拾序应用身份与配置目录，改进窗口交互及更新重启保护。
-
-- 侧栏底部统一为无分隔线的单行工具栏，服务状态靠左、设置入口靠右。
-- 关闭窗口后驻留菜单栏，可恢复原工作区；设置支持 Dock 与菜单栏图标显示偏好。
+- 修复往返切换工作区、从文件变更页返回时，辅助功能解析可能导致的闪退。
+- 统一分支、MR、Worktree、设置及确认弹窗的可选中文本，保留文字选择、复制和完整路径读取。
+- 修复文件列表刷新乱序时旧结果覆盖新状态或清空列表的问题，正确处理取消、页面隐藏和重试。
+- 工作区配置目录重复时显示错误并保留原配置，避免保存时退出。
+- 修复同步失败后的空白提示，以及创建 MR 时重复显示加载图标的问题。
+- 改进工单标题、编号与地址复制入口；关联工单变化后自动读取新详情。
+- 本地分支列表确认删除支持未合并提交，继续保护主分支、被占用分支和已变化的确认目标。
 ]]></description>
-            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.4/Shixu-0.1.4-arm64.zip" length="6144627" type="application/octet-stream" sparkle:edSignature="MQFVKOwb1/eb/2ktfGO/D5D8qVeyXHj/5YlErb+sB2EvhK22zm8BWsv9jlC9iUUUVPlgo2SINMKG4ICuiwHSAg=="/>
+            <enclosure url="https://github.com/UnicornZhang/shixu-releases/releases/download/v0.1.5/Shixu-0.1.5-arm64.zip" length="6206661" type="application/octet-stream" sparkle:edSignature="4SacOZsOdHS9SWf26wZsn7rVmmn9SCSHR9rEp1+RFYnS/FnKJFcA8U1FAzUXHQ8KSn2W7s0KbdIh7uvqoFmbAQ=="/>
         </item>
     </channel>
 </rss>
